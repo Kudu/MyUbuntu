@@ -505,7 +505,7 @@ background: #602e2f url(images/ubuntu/style/footer_links.png) 3px -111px no-repe
 
 #footer .footer_content {
 	width: 690px;
-	background: url(images/ubuntu/style/footer_logo.jpg) 100% 20% no-repeat;
+	/* background: url(images/ubuntu/style/footer_logo.jpg) 100% 20% no-repeat; */
 	float: right;
 	padding: 40px 0 20px 0;
 }
