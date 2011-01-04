@@ -16,7 +16,7 @@
 	line-height: 1.4;
 	margin: 0;
 	padding: 0;
-	font-family: Ubuntu, Tahoma, Verdana, Arial, Sans-Serif;
+	font-family: Ubuntu, Tahoma, Verdana, Arial, sans-serif;
 	font-size: 100%;
 }
 
@@ -283,7 +283,7 @@ background: url(images/ubuntu/style/container_wrap.jpg) 50% 0 no-repeat
 
 table {
 	color: #303030;
-	font-family: Ubuntu, Tahoma, Verdana, Arial, Sans-Serif;
+	font-family: Ubuntu, Tahoma, Verdana, Arial, sans-serif;
 	font-size: 13px;
 }
 
@@ -563,7 +563,7 @@ textarea {
 	color: #000000;
 	border: 1px solid #0f5c8e;
 	padding: 2px;
-	font-family: Ubuntu, Verdana, Arial, Sans-Serif;
+	font-family: Ubuntu, Verdana, Arial, sans-serif;
 	line-height: 1.4;
 	font-size: 13px;
 }
@@ -722,7 +722,7 @@ hr {
 }
 
 #copyright {
-	font: 11px Verdana, Arial, Sans-Serif;
+	font: 11px Verdana, Arial, sans-serif;
 	margin: 0;
 	padding: 10px 0 0 0;
 }
