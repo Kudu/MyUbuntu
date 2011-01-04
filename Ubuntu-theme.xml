@@ -4,7 +4,7 @@
 		<templateset><![CDATA[3]]></templateset>
 		<editortheme><![CDATA[default]]></editortheme>
 		<imgdir><![CDATA[images/ubuntu]]></imgdir>
-		<logo><![CDATA[/images/ubuntu/style/logo.png]]></logo>
+		<logo><![CDATA[images/ubuntu/style/logo.png]]></logo>
 		<tablespace><![CDATA[6]]></tablespace>
 		<borderwidth><![CDATA[0]]></borderwidth>
 	</properties>
@@ -27,7 +27,7 @@
 	font-size: 100%;
 	font-variant: normal;
 	font-stretch: normal;
-	src: local('Ubuntu'), url(/images/ubuntu/english/Ubuntu-R.ttf) format('truetype');
+	src: local('Ubuntu'), url(images/ubuntu/english/Ubuntu-R.ttf) format('truetype');
 }
 
 .guest_links {
