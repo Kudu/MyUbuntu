@@ -1386,7 +1386,7 @@ td .star_rating {
 				{$lang->powered_by} <a href="http://mybb.com/" target="_blank">MyBB{$mybbversion}</a>, &copy; 2002-{$copy_year} <a href="http://mybb.com/" target="_blank">MyBB Group</a>.
 				<!-- End powered by -->
 <div class="float_right">{$lang_select}</div><br />
-Theme Designed by Putnam for <a href="http://linuxadept.com/" title="Linux Discussion Boards">Linux Adept</a><br />
+<a href="https://github.com/Waterfox/MyUbuntu">Theme</a> designed by Putnam with help from Waterfox for <a href="http://linuxadept.com/">LinuxAdept</a>.<br /> <!-- We'd appreciate it if you left both of these attribution notices in place. -->
 Based off of The Cure by <a href="http://www.audentio.com" title="Free MyBB Themes">Audentio Design</a>.
 
 </div>
