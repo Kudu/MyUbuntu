@@ -25,7 +25,9 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 100%;
-	src: local('Ubuntu'), url(/images/ubuntu/english/Ubuntu-R.ttf') format('truetype);
+	font-variant: normal;
+	font-stretch: normal;
+	src: local('Ubuntu'), url(/images/ubuntu/english/Ubuntu-R.ttf) format('truetype');
 }
 
 .guest_links {
