@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="Ubuntu" version="1601">
+<theme name="MyUbuntu" version="1601">
 	<properties>
 		<templateset><![CDATA[3]]></templateset>
 		<editortheme><![CDATA[default]]></editortheme>
-		<imgdir><![CDATA[images/ubuntu]]></imgdir>
-		<logo><![CDATA[images/ubuntu/style/logo.png]]></logo>
+		<imgdir><![CDATA[images/myubuntu]]></imgdir>
+		<logo><![CDATA[images/myubuntu/style/logo.png]]></logo>
 		<tablespace><![CDATA[6]]></tablespace>
 		<borderwidth><![CDATA[0]]></borderwidth>
 	</properties>
@@ -27,7 +27,7 @@
 	font-size: 100%;
 	font-variant: normal;
 	font-stretch: normal;
-	src: local('Ubuntu'), url(images/ubuntu/english/Ubuntu-R.ttf) format('truetype');
+	src: local('Ubuntu'), url(images/myubuntu/english/Ubuntu-R.ttf) format('truetype');
 }
 
 .guest_links {
@@ -36,7 +36,7 @@ padding: 30px;
 }
 
 .guest_links ul {
-margin: 0;padding:0;list-style:none;background:url(images/ubuntu/style/guest_links.gif) 0 -50px no-repeat;width: 320px;height:50px
+margin: 0;padding:0;list-style:none;background:url(images/myubuntu/style/guest_links.gif) 0 -50px no-repeat;width: 320px;height:50px
 }
 
 .guest_links ul li {
@@ -52,11 +52,11 @@ display:block
 }
 
 .guest_links a.register_button {
-width:162px;height:50px;background:url(images/ubuntu/style/guest_links.gif) 0 0 no-repeat;
+width:162px;height:50px;background:url(images/myubuntu/style/guest_links.gif) 0 0 no-repeat;
 }
 
 .guest_links a.login_button {
-width:100px;height:50px;background:url(images/ubuntu/style/guest_links.gif) -214px 0 no-repeat;
+width:100px;height:50px;background:url(images/myubuntu/style/guest_links.gif) -214px 0 no-repeat;
 }
 
 .guest_links a:hover.register_button, .guest_links a:hover.login_button {
@@ -94,7 +94,7 @@ a:hover {
 #header .top_bar ul li {
 	float:right;
 	margin: 0 6px;
-	background: url(images/ubuntu/style/top_bar_tab.jpg) 0 0 no-repeat;
+	background: url(images/myubuntu/style/top_bar_tab.jpg) 0 0 no-repeat;
 	padding: 0;
 	=width: 110px;
 }
@@ -113,25 +113,25 @@ a:hover {
 }
 
 #header .top_bar ul li a.top_bar_ucp {
-background: url(images/ubuntu/style/top_bar_links.gif) 5px -70px no-repeat
+background: url(images/myubuntu/style/top_bar_links.gif) 5px -70px no-repeat
 }
 
 #header .top_bar ul li a.top_bar_mcp {
-background: url(images/ubuntu/style/top_bar_links.gif) 5px -46px no-repeat
+background: url(images/myubuntu/style/top_bar_links.gif) 5px -46px no-repeat
 }
 
 #header .top_bar ul li a.top_bar_acp {
-background: url(images/ubuntu/style/top_bar_links.gif) 5px 4px no-repeat
+background: url(images/myubuntu/style/top_bar_links.gif) 5px 4px no-repeat
 }
 
 #header .top_bar ul li a.top_bar_lout {
-background: url(images/ubuntu/style/top_bar_links.gif) 5px -21px no-repeat
+background: url(images/myubuntu/style/top_bar_links.gif) 5px -21px no-repeat
 }
 
 #header .top_bar ul li a span {
 	float:left;
 	display:block;
-	background: url(images/ubuntu/style/top_bar_tab.jpg) 100% 0 no-repeat;
+	background: url(images/myubuntu/style/top_bar_tab.jpg) 100% 0 no-repeat;
 	padding:4px 15px 3px 3px;
 }
 
@@ -145,7 +145,7 @@ background: url(images/ubuntu/style/top_bar_links.gif) 5px -21px no-repeat
 }
 
 #panel {
-	background: url(images/ubuntu/style/panel_main.jpg) 0 0 no-repeat;
+	background: url(images/myubuntu/style/panel_main.jpg) 0 0 no-repeat;
 	width: 266px;
 	height: 68px;
 	float: right;
@@ -158,28 +158,28 @@ background: url(images/ubuntu/style/top_bar_links.gif) 5px -21px no-repeat
 }
 
 #header {
-	background: #0e1c2a url(images/ubuntu/style/header_bg.jpg) 0 0 repeat-x;
+	background: #0e1c2a url(images/myubuntu/style/header_bg.jpg) 0 0 repeat-x;
 	height: 210px;
 }
 
 #header .header_main {
-	background: #104d83 url(images/ubuntu/style/header_main.jpg) 0 0 repeat-x;
+	background: #104d83 url(images/myubuntu/style/header_main.jpg) 0 0 repeat-x;
 	height: 126px;
 	width: 960px;
 }
 
 #header .header_left {
-	background: url(images/ubuntu/style/header_left.jpg) 0 0 no-repeat;
+	background: url(images/myubuntu/style/header_left.jpg) 0 0 no-repeat;
 	height: 126px;
 }
 
 #header .header_right {
-	background: url(images/ubuntu/style/header_right.jpg) 100% 0 no-repeat;
+	background: url(images/myubuntu/style/header_right.jpg) 100% 0 no-repeat;
 	height: 126px;
 }
 
 #navbar {
-	background: #0e1c2a url(images/ubuntu/style/nav_main.jpg) 0 0 no-repeat;
+	background: #0e1c2a url(images/myubuntu/style/nav_main.jpg) 0 0 no-repeat;
 	width: 960px;	
 	height: 50px;
 }
@@ -200,7 +200,7 @@ background: url(images/ubuntu/style/top_bar_links.gif) 5px -21px no-repeat
 }
 
 #navbar #search .search_input_wrap {
-	background: url(images/ubuntu/style/nav_search_input.png) 0 0 no-repeat;
+	background: url(images/myubuntu/style/nav_search_input.png) 0 0 no-repeat;
 	width: 238px;
 	height: 30px;
 	float: left;
@@ -216,7 +216,7 @@ background: url(images/ubuntu/style/top_bar_links.gif) 5px -21px no-repeat
 }
 
 #navbar #search .nav_search_button {
-	background: transparent url(images/ubuntu/style/nav_search_go.png)  0 0 no-repeat;
+	background: transparent url(images/myubuntu/style/nav_search_go.png)  0 0 no-repeat;
 	width: 62px;
 	height: 30px;
 	float: right;
@@ -248,11 +248,11 @@ color: #228ae7
 }
 
 #container .container_wrap {
-background: url(images/ubuntu/style/container_wrap.jpg) 50% 0 no-repeat
+background: url(images/myubuntu/style/container_wrap.jpg) 50% 0 no-repeat
 }
 
 #container .subnav {
-	background: #6e6c67 url(images/ubuntu/style/subnav_main.jpg) 0 0 repeat-x;
+	background: #6e6c67 url(images/myubuntu/style/subnav_main.jpg) 0 0 repeat-x;
 	border: 1px solid #6e6c67;
 	border-bottom: 1px solid #403e3a;
 	padding: 8px;
@@ -273,7 +273,7 @@ background: url(images/ubuntu/style/container_wrap.jpg) 50% 0 no-repeat
 }
 
 #container {
-	background: #060105 url(images/ubuntu/style/main_bg.jpg) 0 0 repeat-x;
+	background: #060105 url(images/myubuntu/style/main_bg.jpg) 0 0 repeat-x;
 }
 
 #content {
@@ -293,18 +293,18 @@ table {
 }
 
 .thead_main {
-	background: #0e4271 url(images/ubuntu/style/thead_main.jpg) 0 0 repeat-x;
+	background: #0e4271 url(images/myubuntu/style/thead_main.jpg) 0 0 repeat-x;
 	height: 46px;
 	border-bottom: 1px solid #063055;
 }
 
 .thead_left {
-	background: url(images/ubuntu/style/thead_left.png) 0 0 no-repeat;
+	background: url(images/myubuntu/style/thead_left.png) 0 0 no-repeat;
 	height: 46px;
 }
 
 .thead_right {
-	background: url(images/ubuntu/style/thead_right.png) 100% 0 no-repeat;
+	background: url(images/myubuntu/style/thead_right.png) 100% 0 no-repeat;
 	height: 46px;
 }
 
@@ -341,7 +341,7 @@ display:block
 }
 
 .tcat, .tcat_main {
-	background: #6e6c67 url(images/ubuntu/style/tcat_main.jpg) 0 0 repeat-x;
+	background: #6e6c67 url(images/myubuntu/style/tcat_main.jpg) 0 0 repeat-x;
 	color: #000000;
 	font-size: 12px;
 	text-shadow: #FFFFFF 1px 1px 0;
@@ -412,17 +412,14 @@ border-radius: 8px;
 }
 
 .foot_main {
-	background: url(images/ubuntu/style/tfoot_main.jpg) 0 0 repeat-x;
 	height: 9px;
 }
 
 .tfoot_left {
-	background: url(images/ubuntu/style/tfoot_left.jpg) 0 0 no-repeat;
 	height: 9px;
 }
 
 .tfoot_right {
-	background: url(images/ubuntu/style/tfoot_right.jpg) 100% 0 no-repeat;
 	height: 9px;
 }
 
@@ -442,7 +439,7 @@ border-radius: 8px;
 }
 
 #container .footer_main {
-	background: url(images/ubuntu/style/footer_main.jpg) 0 0 no-repeat;
+	background: url(images/myubuntu/style/footer_main.jpg) 0 0 no-repeat;
 	height: 18px;
 	width: 960px;
 	line-height: 1px;
@@ -455,7 +452,7 @@ border-radius: 8px;
 
 #footer .footer_menu {
 	width: 250px;
-	background: url(images/ubuntu/style/footer_menu_main.jpg) 100% 0 no-repeat;
+	background: url(images/myubuntu/style/footer_menu_main.jpg) 100% 0 no-repeat;
 	float: left;
 }
 
@@ -488,24 +485,24 @@ color:#228ae7
 }
 
 #footer .footer_menu ul li a.bot_home {
-background: #602e2f url(images/ubuntu/style/footer_links.png) 3px -39px no-repeat
+background: #602e2f url(images/myubuntu/style/footer_links.png) 3px -39px no-repeat
 }
 
 #footer .footer_menu ul li a.bot_contact {
-background: #602e2f url(images/ubuntu/style/footer_links.png) 3px -1px no-repeat
+background: #602e2f url(images/myubuntu/style/footer_links.png) 3px -1px no-repeat
 }
 
 #footer .footer_menu ul li a.bot_archive {
-background: #602e2f url(images/ubuntu/style/footer_links.png) 3px -75px no-repeat
+background: #602e2f url(images/myubuntu/style/footer_links.png) 3px -75px no-repeat
 }
 
 #footer .footer_menu ul li a.bot_rss {
-background: #602e2f url(images/ubuntu/style/footer_links.png) 3px -111px no-repeat
+background: #602e2f url(images/myubuntu/style/footer_links.png) 3px -111px no-repeat
 }
 
 #footer .footer_content {
 	width: 690px;
-	/* background: url(images/ubuntu/style/footer_logo.jpg) 100% 20% no-repeat; */
+	/* background: url(images/myubuntu/style/footer_logo.jpg) 100% 20% no-repeat; */
 	float: right;
 	padding: 40px 0 20px 0;
 }
@@ -995,23 +992,23 @@ div.error.ul {
 }
 
 a.content_icon {
-display: block; float: right; background: url(images/ubuntu/style/misc_icons.png) 0 -184px no-repeat;padding: 2px 2px 2px 18px;margin: 0 6px;font-weight: bold
+display: block; float: right; background: url(images/myubuntu/style/misc_icons.png) 0 -184px no-repeat;padding: 2px 2px 2px 18px;margin: 0 6px;font-weight: bold
 }
 
 a.top_icon {
-display: block; float: right; background: url(images/ubuntu/style/misc_icons.png) 0 -140px no-repeat;padding: 2px 2px 2px 18px;margin: 0 6px;font-weight: bold
+display: block; float: right; background: url(images/myubuntu/style/misc_icons.png) 0 -140px no-repeat;padding: 2px 2px 2px 18px;margin: 0 6px;font-weight: bold
 }
 
 .stats_icon {
-background: url(images/ubuntu/style/misc_icons.png) 0 -49px no-repeat;padding: 2px 2px 2px 18px;font-weight: bold
+background: url(images/myubuntu/style/misc_icons.png) 0 -49px no-repeat;padding: 2px 2px 2px 18px;font-weight: bold
 }
 
 .birthdays_icon {
-background: url(images/ubuntu/style/misc_icons.png) 0 3px no-repeat;padding: 2px 2px 2px 18px;font-weight: bold
+background: url(images/myubuntu/style/misc_icons.png) 0 3px no-repeat;padding: 2px 2px 2px 18px;font-weight: bold
 }
 
 .wol_icon {
-background: url(images/ubuntu/style/misc_icons.png) 0 -93px no-repeat;padding: 2px 2px 2px 18px;font-weight: bold
+background: url(images/myubuntu/style/misc_icons.png) 0 -93px no-repeat;padding: 2px 2px 2px 18px;font-weight: bold
 }
 
 ]]>
@@ -1374,42 +1371,30 @@ td .star_rating {
 		</ul>
 </div>
 <div class="footer_content">
-			<br />
-			<p>All content &copy; copyright {$mybb->settings['homename']}.</p>
-			<br /><br />
-			<!-- MyBB is free software developed and maintained by a volunteer community. 
-				It would be much appreciated by the MyBB Group if you left the full copyright and "powered by" notice intact, 
-				to show your support for MyBB.  If you choose to remove or modify the copyright below, 
-				you may be refused support on the MyBB Community Forums.
-					 
-				This is free software, support us and we'll support you. -->
-				{$lang->powered_by} <a href="http://mybb.com/" target="_blank">MyBB{$mybbversion}</a>, &copy; 2002-{$copy_year} <a href="http://mybb.com/" target="_blank">MyBB Group</a>.
-				<!-- End powered by -->
+                        <br />
+                        <p>All content &copy; copyright {$copy_year} {$mybb->settings['homename']}.</p>
+                        <br /><br />
+                        <!-- MyBB is free software developed and maintained by a volunteer community.
+                                It would be much appreciated by the MyBB Group if you left the full copyright and "powered by" notice intact,
+                                to show your support for MyBB.  If you choose to remove or modify the copyright below,
+                                you may be refused support on the MyBB Community Forums.
+
+                                This is free software, support us and we'll support you. -->
+                                {$lang->powered_by} <a href="http://mybb.com/" target="_blank">MyBB{$mybbversion}</a>, &copy; 2002-{$copy_year} <a href="http://mybb.com/" target="_blank">MyBB Group</a>.
+                                <!-- End powered by --!>
 <div class="float_right">{$lang_select}</div><br />
-<a href="https://github.com/Waterfox/MyUbuntu">Theme</a> designed by Putnam with help from Waterfox for <a href="http://linuxadept.com/">LinuxAdept</a>.<br /> <!-- We'd appreciate it if you left both of these attribution notices in place. -->
+<!-- We'd appreciate it if you left both of the following attribution notices in place. -->
+<a href="https://github.com/Waterfox/MyUbuntu">Theme</a> designed by Putnam and Waterfox for <a href="http://linuxadept.com/" title="Linux discussion boards">Linux Adept</a>.<br /> 
 Based off of The Cure by <a href="http://www.audentio.com" title="Free MyBB Themes">Audentio Design</a>.
 
 </div>
 <div class="clear"></div>
-		<!-- <div id="debug"><debugstuff></div> -->
-		<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE -->{$task_image}<!-- End task image code -->
-		{$auto_dst_detection}
-	</div>
+                <!-- <div id="debug"><debugstuff></div> -->
+                <!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE -->{$task_image}<!-- End task image code -->
+                {$auto_dst_detection}
+        </div>
 </div>
-<!-- Below is our Google Analytics tracking code.  Dont Remove. -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20373144-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>]]></template>
+</template>
 		<template name="header_welcomeblock_member" version="1413"><![CDATA[<div class="mainwrap">
 <div class="top_bar">
 	<ul>
@@ -1733,7 +1718,7 @@ Based off of The Cure by <a href="http://www.audentio.com" title="Free MyBB Them
 	{$header}
 	{$pollbox}
 	<div class="float_left">
-		{$multipage}
+		{$multipage}{$mysupport_jumpto_bestanswer}{$mysupport_form}
 	</div>
 	<div class="float_right">
 		{$newreply}
@@ -1745,7 +1730,7 @@ Based off of The Cure by <a href="http://www.audentio.com" title="Free MyBB Them
 					<span class="smalltext"><strong><a href="showthread.php?mode=threaded&amp;tid={$tid}&amp;pid={$pid}#pid{$pid}">{$lang->threaded}</a> | <a href="showthread.php?mode=linear&amp;tid={$tid}&amp;pid={$pid}#pid{$pid}">{$lang->linear}</a></strong></span>
 				</div>
 				<div>
-					<strong>{$thread['subject']}</strong>
+					<strong>{$mysupport_status}{$thread['subject']}</strong>
 				</div>
 </div></div></div></div>
 	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder" style="clear: both; border-bottom-width: 0;">
@@ -1766,7 +1751,7 @@ Based off of The Cure by <a href="http://www.audentio.com" title="Free MyBB Them
 	</table>
 <div class="tfoot_main"><div class="tfoot_left"><div class="tfoot_right"></div></div></div>
 	<div class="float_left">
-		{$multipage}
+		{$multipage}{$mysupport_jumpto_bestanswer}{$mysupport_form}
 	</div>
 	<div style="padding-top: 4px;" class="float_right">
 		{$newreply}
@@ -1847,14 +1832,14 @@ Based off of The Cure by <a href="http://www.audentio.com" title="Free MyBB Them
 		<tr>
 			<td class="tcat tcat_left tcat_right">
 				<div class="float_left smalltext">
-					{$post['postdate']}, {$post['posttime']} <span id="edited_by_{$post['pid']}">{$post['editedmsg']}</span>
+					{$post['postdate']}, {$post['posttime']} <span id="edited_by_{$post['pid']}">{$post['editedmsg']}{$post['edithistory']}</span>
 				</div>
 				{$post['posturl']}
 			</td>
 		</tr>
 
 		<tr>
-			<td class="trow1 {$unapproved_shade}">
+			<td class="trow1{$post['mysupport_bestanswer_highlight']}{$post['mysupport_staff_highlight']} {$unapproved_shade}">
 				<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
 					<tr>
 						<td class="post_avatar" width="1" style="{$post['avatar_padding']}">
@@ -1869,7 +1854,7 @@ Based off of The Cure by <a href="http://www.audentio.com" title="Free MyBB Them
 							</span>
 						</td>
 						<td class="smalltext post_author_info" width="165">
-							{$post['user_details']}
+							{$post['user_details']}{$post['newpoints_postbit']}
 						</td>
 					</tr>
 				</table>
@@ -1877,8 +1862,8 @@ Based off of The Cure by <a href="http://www.audentio.com" title="Free MyBB Them
 		</tr>
 
 		<tr>
-			<td class="trow2 post_content {$unapproved_shade}">
-				<span class="smalltext"><strong>{$post['icon']}{$post['subject']} {$post['subject_extra']}</strong></span>
+			<td class="trow2{$post['mysupport_bestanswer_highlight']}{$post['mysupport_staff_highlight']} post_content {$unapproved_shade}">
+				<span class="smalltext"><strong>{$post['mysupport_status']}{$post['icon']}{$post['subject']} {$post['subject_extra']}<div class="float_right">{$post['mysupport_bestanswer']}{$post['mysupport_deny_support_post']}</div></strong></span>
 
 				<div class="post_body" id="pid_{$post['pid']}">
 					{$post['message']}
@@ -1893,15 +1878,15 @@ Based off of The Cure by <a href="http://www.audentio.com" title="Free MyBB Them
 		</tr>
 
 		<tr>
-			<td class="trow1 post_buttons {$unapproved_shade}">
+			<td class="trow1{$post['mysupport_bestanswer_highlight']}{$post['mysupport_staff_highlight']} post_buttons {$unapproved_shade}">
 				<div class="author_buttons float_left">
 					{$post['button_email']}{$post['button_pm']}{$post['button_www']}{$post['button_find']}
 				</div>
-				<div class="post_management_buttons float_right">{$post['button_edit']}{$post['button_quickdelete']}{$post['button_quote']}{$post['button_multiquote']}{$post['button_report']}{$post['button_warn']}{$post['button_reply_pm']}{$post['button_replyall_pm']}{$post['button_forward_pm']}{$post['button_delete_pm']}
+				<div class="post_management_buttons float_right">{$post['button_edit']}{$post['button_quickdelete']}{$post['button_quote']}{$post['thanks']}{$post['button_multiquote']}{$post['button_report']}{$post['button_warn']}{$post['button_reply_pm']}{$post['button_replyall_pm']}{$post['button_forward_pm']}{$post['button_delete_pm']}
 				</div>
 			</td>
 		</tr>
-	</tbody>
+	<table>{$post['thxdsp']}</table></tbody>
 </table>]]></template>
 		<template name="redirect" version="1413"><![CDATA[<html>
 <head>
